@@ -1,6 +1,4 @@
-/**********************************************
-*** GENERAL
-**********************************************/
+/* GENERAL */
 .score-box {
     left: 41.5%;
     top: 85%;
@@ -25,7 +23,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(./resources/back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -57,9 +55,7 @@ body {
 
 
 
-/**********************************************
-*** PLAYERS
-**********************************************/
+/* PLAYER */
 
 .player-name {
     font-size: 40px;

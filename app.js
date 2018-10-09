@@ -78,11 +78,11 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
         const diceDomT = document.querySelector('.diceT');
         diceDomT.style.display = 'block';
-        diceDomT.src =  `dice-${diceT}.png`;
+       diceDomT.src =  `./resources/dice-${diceT}.png`;
 
         const diceDomB = document.querySelector('.diceB');
         diceDomB.style.display = 'block';
-        diceDomB.src = `dice-${diceB}.png`;
+       diceDomB.src = `./resources/dice-${diceB}.png`; 
 
 
         if ((diceT === 6 && lastDiceT === 6) || (diceB === 6 && lastDiceB === 6)) {
